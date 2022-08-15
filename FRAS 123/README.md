@@ -9,7 +9,7 @@ Technology used :
 -MongoDB
 
 
-Here I am working on Face Recognition Attendance System(FRAS) by using OpenCV(Python) and MongoDB. One can mark thier attendance by simply facing the camera. 
+Here I worked on Face Recognition Attendance System(FRAS) by using OpenCV(Python) and MongoDB. One can mark thier attendance by simply facing the camera. 
 
 How it works :
 When we run the main_notebook.ipynb file then a window pops up and asks for the admin username and password. After login correctly, a new window open and ask for Emp_Id, Emp_name, etc. After entering information then we have to click the Check button. if the id is not present in a database then and then only the Take_image button gets enabled until then the Take_image button is disabled. After clicking the Take_images button a window will pop up and it will capture some images (say 60) and images will get stored in the data folder. After clicking the Train_image button, it will create a Trainer.yml file and store it in the Trainer folder.
